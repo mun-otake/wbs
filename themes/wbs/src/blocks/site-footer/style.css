@@ -25,7 +25,7 @@
 			var(--wp--preset--spacing--normal);
 		margin-inline: auto;
 
-		@container site-footer (inline-size >= 48em) {
+		@container site-footer (inline-size >= 768px) {
 			padding-block: var(--wp--preset--spacing--xl);
 		}
 	}
